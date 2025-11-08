@@ -1,0 +1,43 @@
+GoSimOS — simulation summary
+----------------------------------------
+Quantum: 100ms  Elapsed: 6.0357207s
+
+Processes:
+ PID=1 name=worker-proc-01 prio=0 cpu=704ms remaining=0
+ PID=2 name=io-proc-02 prio=1 cpu=201ms remaining=0
+ PID=3 name=net-proc-03 prio=0 cpu=201ms remaining=0
+ PID=4 name=db-proc-04 prio=1 cpu=202ms remaining=0
+ PID=5 name=logger-proc-05 prio=1 cpu=503ms remaining=0
+ PID=6 name=ipc-proc-06 prio=0 cpu=1.005s remaining=0
+ PID=7 name=fs-proc-07 prio=1 cpu=502ms remaining=0
+ PID=8 name=cache-proc-08 prio=2 cpu=100ms remaining=9
+ PID=9 name=worker-proc-09 prio=2 cpu=100ms remaining=9
+ PID=10 name=io-proc-10 prio=0 cpu=401ms remaining=0
+ PID=11 name=net-proc-11 prio=0 cpu=201ms remaining=0
+ PID=12 name=db-proc-12 prio=1 cpu=906ms remaining=0
+ PID=13 name=logger-proc-13 prio=1 cpu=503ms remaining=0
+ PID=14 name=ipc-proc-14 prio=2 cpu=0s remaining=11
+ PID=15 name=fs-proc-15 prio=2 cpu=0s remaining=5
+ PID=16 name=cache-proc-16 prio=0 cpu=504ms remaining=0
+
+Mailboxes:
+ PID=3 messages=0
+ PID=6 messages=0
+ PID=4 messages=0
+ PID=5 messages=0
+ PID=1 messages=3
+ PID=9 messages=0
+ PID=11 messages=0
+ PID=14 messages=0
+ PID=2 messages=0
+ PID=13 messages=0
+ PID=10 messages=0
+ PID=15 messages=0
+ PID=7 messages=0
+ PID=8 messages=0
+ PID=16 messages=0
+ PID=12 messages=0
+
+Files:
+ file_10.txt -> "Data written by io-proc-10 at 2025-11-08T20:59:42+05:30"
+ file_11.txt -> "Data written by net-proc-11 at 2025-11-08T20:59:41+05:30"

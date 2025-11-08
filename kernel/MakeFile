@@ -1,0 +1,10 @@
+.PHONY: run test build
+
+run:
+	go run .
+
+build:
+	go build -o os .
+
+test:
+	go test ./... -v
